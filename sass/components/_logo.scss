@@ -19,12 +19,12 @@
   &:focus {
     outline: none;
   }
+}
 
-  .header & {
-    margin-right: 95px;
-  }
+.header__logo-link {
+  margin-right: 95px;
+}
 
-  .footer & {
-    margin-bottom: 20px;
-  }
+.footer__logo-link {
+  margin-bottom: 20px;
 }

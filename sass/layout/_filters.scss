@@ -1,16 +1,16 @@
-.filters-container {
+.container__filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.filters-portfolio {
+.filters__item {
   &:not(:last-child) {
     margin-right: 8px;
   }
 }
 
-.filter-buttons {
+.filters__button {
   padding: 6px 22px;
   border: none;
   border-radius: 4px;

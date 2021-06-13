@@ -1,5 +1,8 @@
 .address {
   width: 231px;
+}
+
+.footer__address {
   margin-right: 70px;
 }
 
@@ -8,6 +11,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 
   &:not(:last-child) {
     margin-bottom: 9px;
