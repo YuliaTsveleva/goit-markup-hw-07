@@ -93,9 +93,9 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
+  line-height: 1.88;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--dark-background-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -115,7 +115,7 @@ body {
   color: var(--logo-color);
 }
 
-.logo-link__studio--dark-theme {
+.logo-link__studio_dark-theme {
   color: var(--dark-background-text-color);
 }
 
@@ -124,6 +124,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-link:focus {
@@ -468,9 +469,9 @@ body {
 .modal-form__heading {
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
-  text-align: center;
+  line-height: 1.15;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--heading-color);
   margin-bottom: 12px;
 }
@@ -640,8 +641,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--dark-background-text-color);
 }
@@ -717,8 +718,8 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--dark-background-text-color);
   background-color: var(--activity-background-color);
@@ -756,6 +757,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--heading-color);
 }
 
@@ -813,7 +815,8 @@ body {
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
   color: var(--heading-color);
   background-color: var(--accent-background-color);
   cursor: pointer;

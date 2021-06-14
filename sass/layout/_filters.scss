@@ -14,9 +14,10 @@
   padding: 6px 22px;
   border: none;
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  @include font(500, 16px, 26px);
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.62;
   color: var(--heading-color);
   background-color: var(--accent-background-color);
   cursor: pointer;

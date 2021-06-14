@@ -4,11 +4,12 @@
 }
 
 .modal-form__heading {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
+  @include font(700, 20px, 23px);
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: 23px;
+  // letter-spacing: 0.03em;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--heading-color);
   margin-bottom: 12px;
 }
@@ -126,10 +127,11 @@
 .sending-button {
   align-self: center;
   padding: 10px 55px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  @include font(700, 16px, 30px, 0.06em);
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.88;
+  // letter-spacing: 0.06em;
   color: var(--dark-background-text-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

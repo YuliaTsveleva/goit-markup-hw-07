@@ -15,10 +15,11 @@
 
 .nav-list__link {
   position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font($fw: 500, $ls: 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.02em;
   color: var(--heading-color);
   transition: color var(--transition-duration) var(--timing-cubic);
 
